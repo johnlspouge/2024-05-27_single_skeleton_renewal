@@ -1,0 +1,16 @@
+parameter set 0 :
+    Latent Gamma( 3.5 4.0 )
+    Infectious Gamma( 5.5 0.3 )
+    R_0 ( 2.0 )
+parameter set 1 :
+    Latent Gamma( 3.5 4.0 )
+    Infectious Gamma( 5.5 0.7 )
+    R_0 ( 2.0 )
+parameter set 2 :
+    Latent Gamma( 3.5 4.0 )
+    Infectious Gamma( 5.5 0.3 )
+    R_0 ( 3.0 )
+parameter set 3 :
+    Latent Gamma( 3.5 4.0 )
+    Infectious Gamma( 5.5 0.7 )
+    R_0 ( 3.0 )

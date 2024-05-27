@@ -1,0 +1,24 @@
+parameter set 0 :
+    Latent Gamma( 3.5 4.0 )
+    Infectious Gamma( 5.5 0.3 )
+    R_0 ( 2.0 )
+     sample_mean = 9.495031615745852
+            mean = 9.202472375625526
+parameter set 1 :
+    Latent Gamma( 3.5 4.0 )
+    Infectious Gamma( 5.5 0.7 )
+    R_0 ( 2.0 )
+     sample_mean = 6.369488750800679
+            mean = 6.867396224864536
+parameter set 2 :
+    Latent Gamma( 3.5 4.0 )
+    Infectious Gamma( 5.5 0.3 )
+    R_0 ( 3.0 )
+     sample_mean = 4.348306815216193
+            mean = 3.992660659555593
+parameter set 3 :
+    Latent Gamma( 3.5 4.0 )
+    Infectious Gamma( 5.5 0.7 )
+    R_0 ( 3.0 )
+     sample_mean = 2.677102331665969
+            mean = 2.9873068227213286
