@@ -20,8 +20,9 @@ The remaining subdirectories contain executables with specific functions, each c
 
 1. Durations/
 2. Generations/
+3. Fecundity/
 
-The **Data/** and **Output/** directories contain these 2 subdirectories, too, so they can contain the input and output from the corresponding executables if desired. Each subdirectory for executables generally contains 4 files, as follows. 
+The **Data/** and **Output/** directories contain these 3 subdirectories, too, so they can contain the input and output from the corresponding executables if desired. Each subdirectory for executables generally contains 4 files, as follows. 
 
 1. run_ui_[executable].py : A program built with the Python argparse package, so '-h' displays program arguments.
 <br>'-h' displays the purpose of the program (also summarized below) and its arguments. 
@@ -37,6 +38,10 @@ The subdirectories of **Executable/** contain the following executables with the
 <br> Simulates realizations of the generations in the single-skeleton renewal for an SEIR model where E and I are gamma-distributed.
 2. Durations/run_ui_durations.py :
 <br> Simulates realizations of the durations of the single-skeleton renewal for an SEIR model where E and I are gamma-distributed.
+3. Fecundity/run_fecundity_negative_binomial.py :
+<br> In a Galton-Watson process with negative binomial offspring distribution, computes for an extinct lineage: the mean number of offspring, extinction probability, and the partial derivatives of the extinction probability with respect to the negative binomial parameters. 
+
+**Data/**
 
 **Input Files for Executable/Generations/run_ui_generations.py**
 
@@ -50,6 +55,10 @@ See **Executable/Generations/**. The Makefile **run_ui_generations_make.py** spe
 See **Executable/Durations/**. The Makefile **run_ui_durations_make.py** specifies the following input for **run_ui_durations.py**. The input is in **Data/Durations/**. 
 
 1. **generations.csv** is identical to Data/Generations/generations.csv. 
+
+**Input Files for Executable/Fecundity/run_fecundity_negative_binomial.py**
+
+**run_fecundity_negative_binomial.py** does not require any input files.
 
 ### Code Verification ###
 
